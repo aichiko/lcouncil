@@ -1,0 +1,7 @@
+<!--pages/home/home.wxml-->
+
+<swiper indicator-dots="{{indicatorDots}}" autoplay="true" interval="5000" duration="1000" class="slide-image">
+  <swiper-item wx:for="{{imageURLs}}" wx:key="*this">
+      <image src="{{item}}" mode="scaleToFill" class="slide-image"></image>
+  </swiper-item>
+</swiper>

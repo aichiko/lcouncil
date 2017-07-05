@@ -1,0 +1,7 @@
+/* pages/home/home.wxss */
+
+.slide-image {
+    width: 750rpx;
+    height: 421.875rpx;
+    border-bottom: 1rpx solid #ccc;
+}
